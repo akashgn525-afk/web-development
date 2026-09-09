@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/server">
+        <label for="interests">Select your interests:</label>
+            <input type="checkbox" name="interests" id="interests">
+            
+        </label>
+        <label for="music">
+            <input type="checkbox" name="interests"  id="music">
+
+            Music
+        </label>
+        <label for="travel">
+            <input type="checkbox" name="interests" id="travel">
+
+            Travel
+        </label>
+        <button type="submit">Submit</button>
+        <hr/>
+        <div>
+            <input type="radio" name="interests" id="sports"value="sports">
+            <label for="sports">Sports</label>
+            <input type="radio" name="interests" id="reading" value="reading">
+            <label for="reading">Reading</label>
+            <input type="radio" name="interests" id="gaming" value="gaming">
+            <label for="gaming">Gaming</label>
+        </div>
+        <button type="submit">Submit</button>
+        <hr/>
+        choose your profession:
+        <select name="profession"id="profession">
+            <option>select the profession</option>
+            <option value="developer">Developer</option>
+            <option value="designer">Designer</option>
+            <option value="manager">Manager</option>
+        </select>
+        <button type="submit">Submit</button>
+        <hr/>
+        <label for="val">Select your value:</label>
+        <input type="range" name="val" id="val" min="0" max="100" step="10">
+        <button type="submit">Submit</button>
+        <hr/>
+        <label for="feedback">please give your valuable feedback:</label>
+        <textarea name="feedback" id="feedback" placeholder="Enter your feedback here..."></textarea>
+        <button type="submit">Submit</button>
+        <button type="reset">to do something</button>
+    </form>
+</body>
+</html>
